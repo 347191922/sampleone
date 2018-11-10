@@ -33,4 +33,10 @@ class User extends Authenticatable
      * 我们对应要交互的数据库表为 users
      */
     protected $table = 'users';
+
+    public function gravatar($size = '100')
+    {
+        $hash = md5(strtolower(trim($this->attributes['email'])));
+        return "http://www.gravatar.com/avatar/$hash?s=$size";
+    }
 }
