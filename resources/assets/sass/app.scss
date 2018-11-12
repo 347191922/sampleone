@@ -55,6 +55,13 @@ p {
   background-color: $navbar-color;
 }
 
+#logout {
+  cusrs:de fault;
+  &:hover {
+    background-color:transparent;
+  }
+}
+
 #logo {
   float: left;
   margin-right: 10px;

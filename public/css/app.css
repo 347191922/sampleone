@@ -10522,6 +10522,14 @@ p {
   background-color: #3c3e42;
 }
 
+#logout {
+  cusrs: de fault;
+}
+
+#logout:hover {
+  background-color: transparent;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
